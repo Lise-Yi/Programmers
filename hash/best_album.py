@@ -12,5 +12,5 @@ def solution(genres, plays):
     total = sorted(total.items(), key = (lambda x:x[1]), reverse = True)
     for k,v in many.items() : many[k] = sorted(v, key = (lambda x:x[0]), reverse=True)[:2]
     for to in total : 
-        for m in many[to[0]] : answer.append(m[1])
+        for ma in many[to[0]] : answer.append(ma[1])
     return answer
