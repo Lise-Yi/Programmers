@@ -1,1 +1,2 @@
-My answers to challenges from 'Programmers'(https://programmers.co.kr/learn/challenges)
+My answers to Algorithm challenges
+https://programmers.co.kr/learn/challenges
